@@ -27,31 +27,6 @@ This is a car rental project developed for the graduation Project. It is built u
 
 
 
-## Installation
-
-1. Clone the repository: https://github.com/Mohamed-Galdi/RealRentCar
-
-2. Navigate to the project directory: `cd RealRentCar`
-
-3. Install the dependencies using Composer: `composer install`
-
-4. Create a copy of the `.env.example` file and rename it to `.env`. Configure the database settings in the `.env` file.
-
-<!-- 5. Generate an application key: `php artisan key:generate` -->
-
-5. Run the database migrations: `php artisan migrate`
-
-7. Seed database cars table: `php artisan db:seed --class=CarSeeder`
-
-8. Seed the database users table with a Demo admin: `php artisan db:seed --class=adminDemo` (login as admin at '/admin')
-
-9. `npm install` && `npm run dev`
-
-10. Create the symbolic link: `php artisan storage:link`
-
-11. Start the development server: `php artisan serve`
-
-12. Visit `http://localhost:8000` in your browser to access the application.
 
 ## Usage
 
